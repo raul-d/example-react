@@ -10,6 +10,8 @@ import ProductList from 'src/pages/ProductList';
 import Register from 'src/pages/Register';
 import Settings from 'src/pages/Settings';
 
+import ProjectsPage from 'src/pages/projects-page/projects-page.component';
+
 const routes = [
   {
     path: 'app',
@@ -20,6 +22,7 @@ const routes = [
       { path: 'dashboard', element: <Dashboard /> },
       { path: 'products', element: <ProductList /> },
       { path: 'settings', element: <Settings /> },
+      { path: 'projects', element: <ProjectsPage /> },
       { path: '*', element: <Navigate to="/404" /> }
     ]
   },
